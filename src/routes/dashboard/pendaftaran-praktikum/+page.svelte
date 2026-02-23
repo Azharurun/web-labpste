@@ -76,7 +76,7 @@
 	<Card.Root class="border-destructive/50 bg-destructive/10">
 		<Card.Header>
 			<Card.Description class="text-destructive/80">
-				Mohon maaf, pendaftaran praktikum periode saat ini telah ditutup.
+				Pendaftaran berikut hanya berupa pendaftaran jumlah shift kosong yang kurang dari 15!!!
 			</Card.Description>
 		</Card.Header>
 	</Card.Root>
