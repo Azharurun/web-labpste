@@ -81,22 +81,22 @@
 		</Card.Header>
 	</Card.Root>
 
-	{#if false}
-		<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-			{#each labs as lab}
-				<Card.Root class="flex flex-col justify-around transition-all hover:shadow-md">
-					<Card.Header>
-						<div class="mb-4 flex w-full items-center justify-center">
-							<img src={lab.icon} alt={lab.name} class="h-16 w-16 md:h-20 md:w-20" />
-						</div>
-						<Card.Title>{lab.name}</Card.Title>
-						<Card.Description>{lab.desc}</Card.Description>
-					</Card.Header>
-					<Card.Footer>
-						<Button class="w-full" href={lab.href}>Daftar Sekarang</Button>
-					</Card.Footer>
-				</Card.Root>
-			{/each}
-		</div>
-	{/if}
+	<!-- {#if false} -->
+	<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+		{#each labs as lab}
+			<Card.Root class="flex flex-col justify-around transition-all hover:shadow-md">
+				<Card.Header>
+					<div class="mb-4 flex w-full items-center justify-center">
+						<img src={lab.icon} alt={lab.name} class="h-16 w-16 md:h-20 md:w-20" />
+					</div>
+					<Card.Title>{lab.name}</Card.Title>
+					<Card.Description>{lab.desc}</Card.Description>
+				</Card.Header>
+				<Card.Footer>
+					<Button class="w-full" href={lab.href}>Daftar Sekarang</Button>
+				</Card.Footer>
+			</Card.Root>
+		{/each}
+	</div>
+	<!-- {/if} -->
 </div>
